@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=8000 next dev --turbopack",
+    "dev": "cross-env PORT=8000 next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -45,9 +45,9 @@
     "lucide-react": "^0.509.0",
     "next": "15.3.2",
     "next-themes": "^0.4.6",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
     "react-day-picker": "^8.10.1",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.56.3",
     "react-resizable-panels": "^3.0.1",
     "recharts": "^2.15.3",
@@ -63,6 +63,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "postcss": "^8.5.3",
